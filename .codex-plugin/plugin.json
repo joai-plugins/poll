@@ -1,0 +1,38 @@
+{
+  "name": "joai-poll",
+  "version": "0.3.0",
+  "description": "Connect Poll to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+  "author": {
+    "name": "JoAi",
+    "email": "support@joai.ai",
+    "url": "https://joai.ai"
+  },
+  "homepage": "https://joai.ai/en/apps/poll",
+  "repository": "https://github.com/JoAiHQ/plugins",
+  "license": "MIT",
+  "keywords": [
+    "joai",
+    "mcp",
+    "poll"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Poll by JoAi",
+    "shortDescription": "Connect Poll to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+    "longDescription": "On-chain polls and voting groups for any community — property owners, DAOs, teams, and more.",
+    "developerName": "JoAi",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "websiteURL": "https://joai.ai/en/apps/poll",
+    "privacyPolicyURL": "https://legal.vleap.ai/policies/privacy.html",
+    "termsOfServiceURL": "https://legal.vleap.ai/general/legal-notice.html",
+    "defaultPrompt": [
+      "List the Poll tools available in this app.",
+      "Explain what setup or authentication Poll needs before I run an action.",
+      "Use Poll to help me with the task I describe next."
+    ]
+  }
+}
